@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Mes projets</h2>
+            <p>Ceci est la section de mes projets.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contactez-moi à : email@example.com</p>
+    </footer>
+    <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(error => console.error('Error loading navbar:', error));
+    </script>
+</body>
+</html>

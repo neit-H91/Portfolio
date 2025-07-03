@@ -1,0 +1,17 @@
+{
+  "Développement": {
+    "Langages": ["Java", "PHP", "JavaScript", "Bash", "Batch", "Python"],
+    "Frameworks": ["Symfony", "Laravel", "React", "PySpark"],
+    "Outils de test": ["Pytest"]
+  },
+  "Data & BI": {
+    "Data Science": ["Pandas", "NumPy", "Matplotlib"],
+    "Big Data": ["Hadoop", "PySpark"],
+    "ETL & BI": ["Talend", "QlikSense", "PowerBI", "Looker"]
+  },
+  "DevOps & Cloud": {
+    "Conteneurisation": ["Docker", "Kubernetes"],
+    "Cloud": ["Google Cloud Platform"],
+    "Versioning": ["Git", "GitLab"]
+  }
+}
